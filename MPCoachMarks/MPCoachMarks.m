@@ -349,7 +349,7 @@ NSString *const kContinueLabelText = @"Tap to continue";
             }
         }
             break;
-        case LABEL_POSITION_RIGHT_BOTTOM:
+        case LABEL_POSITION_LEFT_BOTTOM:
         {
             y = markRect.origin.y + markRect.size.height + self.lblSpacing;
             CGFloat bottomY = y + self.lblCaption.frame.size.height + self.lblSpacing;
